@@ -1,0 +1,21 @@
+GET http://localhost:5000/users/619e5750d48805a2ae7e7923/articles
+Content-Type: application/json
+Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxOWU1NzUwZDQ4ODA1YTJhZTdlNzkyMyIsInVpZCI6ImEzZTE1MjgxLTUwNTUtNGI2MS1iODQzLTc2MTIwYTYwNGYxNSIsImlhdCI6MTYzNzc2NzA1NCwiZXhwIjoxNjM3ODUzNDU0fQ.l8qOT5A8nXKJIH50Hv_DTgpvXi3e6o61hWdiIHE7UBc; Path=/; HttpOnly; Secure; SameSite=Lax
+uid: a3e15281-5055-4b61-b843-76120a604f15
+
+{
+    "title": "Pierre, c'est le meilleur formateur !"
+}
+###
+POST http://localhost:5000/articles
+Content-Type: application/json
+Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxOWU1NzUwZDQ4ODA1YTJhZTdlNzkyMyIsInVpZCI6ImEzZTE1MjgxLTUwNTUtNGI2MS1iODQzLTc2MTIwYTYwNGYxNSIsImlhdCI6MTYzNzc2NzA1NCwiZXhwIjoxNjM3ODUzNDU0fQ.l8qOT5A8nXKJIH50Hv_DTgpvXi3e6o61hWdiIHE7UBc; Path=/; HttpOnly; Secure; SameSite=Lax
+uid: a3e15281-5055-4b61-b843-76120a604f15
+
+{
+    "title": "Pierre, c'est le meilleur formateur !"
+}
+###
+DELETE http://localhost:5000/articles
+###
+DELETE http://localhost:5000/articles/6195238f842c087b855e5727

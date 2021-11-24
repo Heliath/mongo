@@ -1,0 +1,9 @@
+GET http://localhost:5000/users
+Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxOWNjNjQ2OWI5M2ZkYjk5NzczNTIzNyIsInVpZCI6ImU0YmMxZmExLWQ3NTEtNGRkZi1hNzk4LTFkNmVkZDU1MTA4MCIsImlhdCI6MTYzNzY2NTIzNCwiZXhwIjoxNjM3NzUxNjM0fQ.JZPrQcYGoFxE7bJ753aIkP5vLoecB4WYWnNbMqvJlpw; Path=/; HttpOnly; Secure; SameSite=Lax
+uid: e4bc1fa1-d751-4ddf-a798-1d6edd551080
+###
+GET http://localhost:5000/users/619cc6599b93fdb997735239
+Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxOWNjNjQ2OWI5M2ZkYjk5NzczNTIzNyIsInVpZCI6ImU0YmMxZmExLWQ3NTEtNGRkZi1hNzk4LTFkNmVkZDU1MTA4MCIsImlhdCI6MTYzNzY2NTIzNCwiZXhwIjoxNjM3NzUxNjM0fQ.JZPrQcYGoFxE7bJ753aIkP5vLoecB4WYWnNbMqvJlpw; Path=/; HttpOnly; Secure; SameSite=Lax
+uid: e4bc1fa1-d751-4ddf-a798-1d6edd551080
+###
+DELETE http://localhost:5000/users/619cc6599b93fdb997735239
